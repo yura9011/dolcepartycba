@@ -165,8 +165,11 @@ export default function Home() {
           <p className="text-gray-600 mb-2">
             <span className="font-semibold">@DolcepartyCBA</span>
           </p>
-          <p className="text-sm text-gray-500">
-            Catálogo de Globos - Todos los precios están sujetos a cambios
+          <p className="text-sm text-gray-500 mb-1">
+            Catálogo de Globos - Precios vigentes al 19/02/2026
+          </p>
+          <p className="text-xs text-gray-400">
+            Los precios están sujetos a cambios sin previo aviso
           </p>
         </div>
       </footer>
