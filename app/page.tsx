@@ -14,7 +14,7 @@ export default function Home() {
     return matchCategoria && matchBusqueda;
   });
 
-  const whatsappNumber = "5493512345678"; // Reemplazar con número real
+  const whatsappNumber = "5493513114575"; // DolcePartyCBA
   const whatsappMessage = (producto: any) => 
     `Hola! Me interesa el producto: ${producto.nombre} (Cod: ${producto.codigo}) - $${producto.precio}`;
 
