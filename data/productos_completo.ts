@@ -12,17 +12,6 @@ export interface Producto {
 
 export const productos: Producto[] = [
   {
-    "codigo": "COD",
-    "cod_ean": "COD EAN",
-    "nombre": "NOMBRE",
-    "categoria": "Otros",
-    "subcategoria": null,
-    "descripcion": "NOMBRE - Consultar precio y disponibilidad",
-    "precio": null,
-    "stock": "Consultar disponibilidad",
-    "imagen": null
-  },
-  {
     "codigo": "30642",
     "cod_ean": "9990000306428",
     "nombre": "ACUARELAS CHICAS",
