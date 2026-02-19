@@ -6,7 +6,7 @@ import { productos, categorias, subcategoriasGlobos } from "@/data/productos_com
 const PRODUCTOS_POR_PAGINA = 24;
 
 export default function Home() {
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState<string>("Todas");
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState<string>("Descartables");
   const [subcategoriaSeleccionada, setSubcategoriaSeleccionada] = useState<string>("Todas");
   const [busqueda, setBusqueda] = useState("");
   const [paginaActual, setPaginaActual] = useState(1);
@@ -56,7 +56,7 @@ export default function Home() {
     const placeholders: Record<string, string> = {
       'Globos': '🎈',
       'Golosinas': '🍬',
-      'Bazar': '🍽️',
+      'Descartables': '🍽️',
       'Librería': '✏️',
       'Bengalas y Velas': '🕯️',
       'Decoración': '🎨',
