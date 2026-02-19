@@ -56,6 +56,7 @@ export default function Home() {
     const placeholders: Record<string, string> = {
       'Globos': '🎈',
       'Golosinas': '🍬',
+      'Bazar': '🍴',
       'Descartables': '🍽️',
       'Librería': '✏️',
       'Bengalas y Velas': '🕯️',
