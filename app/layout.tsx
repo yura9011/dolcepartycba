@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DolcePartyCBA - Catálogo de Globos",
-  description: "Catálogo interactivo de globos para fiestas y eventos",
+  title: "DolcePartyCBA - Catálogo Completo",
+  description: "Catálogo completo de productos para fiestas y eventos: globos, golosinas, bazar, librería y más",
 };
 
 export default function RootLayout({
